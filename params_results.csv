@@ -1,0 +1,17 @@
+Layers,Epochs,BatchSize,LearningRate,Optimizer,Scheduler,TrainAcc,ValAcc
+"[Net(
+  (drop_layer): Dropout(p=0.4, inplace=False)
+  (fc1): Linear(in_features=29, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=400, bias=True)
+  (fc3): Linear(in_features=400, out_features=200, bias=True)
+  (fc4): Linear(in_features=200, out_features=100, bias=True)
+  (fc5): Linear(in_features=100, out_features=4, bias=True)
+), Dropout(p=0.4, inplace=False), Linear(in_features=29, out_features=800, bias=True), Linear(in_features=800, out_features=400, bias=True), Linear(in_features=400, out_features=200, bias=True), Linear(in_features=200, out_features=100, bias=True), Linear(in_features=100, out_features=4, bias=True)]",1,16,0.001,"<bound method Optimizer.state_dict of Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    initial_lr: 0.001
+    lr: 0.001
+    weight_decay: 0
+)>",<bound method _LRScheduler.state_dict of <torch.optim.lr_scheduler.CosineAnnealingLR object at 0x0000025C5B5EE608>>,0.4854868913857678,0.5059760956175299
