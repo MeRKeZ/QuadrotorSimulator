@@ -403,3 +403,35 @@ Parameter Group 0
     lr: 0.0001
     weight_decay: 0
 )>",<bound method ReduceLROnPlateau.state_dict of <torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x0000025C60CA2288>>,0.8251404494382022,0.8160690571049137
+"[Net(
+  (drop_layer): Dropout(p=0.4, inplace=False)
+  (fc1): Linear(in_features=37, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=600, bias=True)
+  (fc3): Linear(in_features=600, out_features=300, bias=True)
+  (fc4): Linear(in_features=300, out_features=100, bias=True)
+  (fc5): Linear(in_features=100, out_features=50, bias=True)
+  (fc6): Linear(in_features=50, out_features=4, bias=True)
+), Dropout(p=0.4, inplace=False), Linear(in_features=37, out_features=800, bias=True), Linear(in_features=800, out_features=600, bias=True), Linear(in_features=600, out_features=300, bias=True), Linear(in_features=300, out_features=100, bias=True), Linear(in_features=100, out_features=50, bias=True), Linear(in_features=50, out_features=4, bias=True)]",10,64,0.001,"<bound method Optimizer.state_dict of Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)>",<bound method ReduceLROnPlateau.state_dict of <torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x000002B7885A1808>>,0.9303564949201741,0.9496886209354224
+"[Net(
+  (drop_layer): Dropout(p=0.4, inplace=False)
+  (fc1): Linear(in_features=37, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=600, bias=True)
+  (fc3): Linear(in_features=600, out_features=300, bias=True)
+  (fc4): Linear(in_features=300, out_features=100, bias=True)
+  (fc5): Linear(in_features=100, out_features=50, bias=True)
+  (fc6): Linear(in_features=50, out_features=4, bias=True)
+), Dropout(p=0.4, inplace=False), Linear(in_features=37, out_features=800, bias=True), Linear(in_features=800, out_features=600, bias=True), Linear(in_features=600, out_features=300, bias=True), Linear(in_features=300, out_features=100, bias=True), Linear(in_features=100, out_features=50, bias=True), Linear(in_features=50, out_features=4, bias=True)]",10,64,0.001,"<bound method Optimizer.state_dict of Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)>",<bound method ReduceLROnPlateau.state_dict of <torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x00000250B072B148>>,0.9296431752210054,0.9479009662682417
